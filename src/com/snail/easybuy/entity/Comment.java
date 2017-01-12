@@ -45,6 +45,4 @@ public class Comment {
 	public void setEC_NICK_NAME(String eC_NICK_NAME) {
 		EC_NICK_NAME = eC_NICK_NAME;
 	}    
-
-
 }
