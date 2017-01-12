@@ -3,12 +3,14 @@ package com.snail.easybuy.entity;
 import java.util.Date;
 
 public class Comment {
+	
 	private  int  EC_ID ;    
 	private  String  EC_REPLY ;    
 	private  String  EC_CONTENT ;    
 	private  Date  EC_CREATE_TIME ;    
 	private  Date  EC_REPLY_TIME ;    
 	private  String  EC_NICK_NAME ;
+	
 	public int getEC_ID() {
 		return EC_ID;
 	}
@@ -44,5 +46,6 @@ public class Comment {
 	}
 	public void setEC_NICK_NAME(String eC_NICK_NAME) {
 		EC_NICK_NAME = eC_NICK_NAME;
-	}    
+	}  
+	
 }
